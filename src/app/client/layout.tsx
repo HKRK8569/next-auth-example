@@ -7,11 +7,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>
-        <NextAuthProvider>{children}</NextAuthProvider>
-      </body>
-    </html>
-  );
+  return <NextAuthProvider>{children}</NextAuthProvider>;
 }
