@@ -2,8 +2,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <li>
-      <Link href="/client">client</Link>
-    </li>
+    <ul>
+      <li>
+        <Link href="/client">client</Link>
+      </li>
+      <li>
+        <Link href="/serverside">serverside</Link>
+      </li>
+    </ul>
   );
 }
